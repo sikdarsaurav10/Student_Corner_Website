@@ -257,6 +257,11 @@ color: #777;
   color: #777;
 }
 }
+.lead{
+  font-family: cursive;
+  font-style: italic;
+  font-size: 1.5em;
+}
 
  </style>
 
@@ -269,7 +274,7 @@ color: #777;
     <div class="bg-light border-right" id="sidebar-wrapper">
       <div class="sidebar-heading"><strong>SAURAV SIKDAR</strong></div>
       <div class="list-group list-group-flush">
-        <img src="{{url_for('static',filename='user-image.png')}}" alt="Picture of the person">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRawwF1NRW6PlMkvj5iBhZL9uUqltL09E9gyK8mpXE4Ku7MBQes" alt="Picture of the person">
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
@@ -350,7 +355,8 @@ color: #777;
 <section class="py-5">
   <div class="container">
     <h1 class="display-4" style="color: red;"><strong>JB INSTITUTE Of TECHNOLOGY</strong></h1>
-    <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images in this snippet are from <a href="https://unsplash.com">Unsplash</a>, taken by <a href="https://unsplash.com/@joannakosinska">Joanna Kosinska</a>!</p>
+    <p class="lead">Welcome!! JBITians to your's own personnel media center cum notification center, where you will find all your multimedia at one place, and also keep
+    up with what's going on in your college on a regular basis!!</p>
   </div>
 </section>
 
@@ -377,7 +383,7 @@ color: #777;
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <a class="d-block text-center mt-2 small" href="{{url_for('third')}}" style="font-size: 20px;">LOG IN</a>
         <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2019</p>
     </form>
 
