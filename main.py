@@ -10,5 +10,9 @@ def first():
 def second():
     return render_template('register_form.html')
 
+@app.route('/landing')
+def third():
+    return render_template('student_landing_page.html')
+
 app.run(debug=True,port=60)
 
